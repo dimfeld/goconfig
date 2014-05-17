@@ -84,3 +84,7 @@ i = 4
     // {false 3 DEF [3 4 5] {false 4} [{true 6} {false 7} {true 8}]}
 }
 ````
+
+## Acknowledgements
+
+This package uses the TOML parser from [github.com/BurntSushi/toml](https://github.com/BurntSushi/toml)
