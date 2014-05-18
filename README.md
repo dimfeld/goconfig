@@ -52,7 +52,10 @@ i = 3
 b = true
 i = 4
 `
-    config := exampleConfig{}
+    config := exampleConfig{
+        B: true,
+        S: "default value string",
+    }
     reader := bytes.NewReader([]byte(tomlExample))
     Load(&config, reader, "EXAMPLE")
     fmt.Println("Original data loaded")
